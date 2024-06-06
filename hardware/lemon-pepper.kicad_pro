@@ -132,7 +132,7 @@
         "min_via_diameter": 0.3,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -535,7 +535,20 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/current sense/U_IN": "MOTOR",
+      "/current sense/U_OUT": "MOTOR",
+      "/current sense/V_IN": "MOTOR",
+      "/current sense/V_OUT": "MOTOR",
+      "/current sense/W_IN": "MOTOR",
+      "/half bridges/OUT1B": "MOTOR",
+      "/usb/USB_5V": "PWR",
+      "Net-(C503-Pad1)": "PWR",
+      "Net-(D602-K)": "MOTOR",
+      "Net-(D603-K)": "MOTOR",
+      "Net-(U501-LX)": "PWR",
+      "USB_5V": "PWR"
+    },
     "netclass_patterns": [
       {
         "netclass": "GND",
@@ -672,13 +685,19 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "LCSC"
     },
     "connection_grid_size": 50.0,
     "drawing": {

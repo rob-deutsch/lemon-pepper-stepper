@@ -4025,9 +4025,9 @@
 		(at 58.42 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "72527ab6-368a-4332-b2bc-7c5218c8fa61")
 		(property "Reference" "R103"
 			(at 55.88 109.22 0)
@@ -4923,7 +4923,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "e22d205f-8c28-4a2e-8942-03f2906b8179")
 		(property "Reference" "JP101"

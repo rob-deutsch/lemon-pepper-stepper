@@ -3334,22 +3334,16 @@
 		(uuid "978c225f-ee58-48c6-9f3f-273d7f0dff63")
 	)
 	(no_connect
+		(at 76.2 104.14)
+		(uuid "b08317aa-3b95-461c-a520-9e3497348c92")
+	)
+	(no_connect
 		(at 76.2 111.76)
 		(uuid "f3a9951e-f0f1-41e8-b76c-f303a27ea11f")
 	)
 	(no_connect
 		(at 76.2 114.3)
 		(uuid "f6d5df03-82a0-4daf-9e5e-c01c3e1a5a0b")
-	)
-	(wire
-		(pts
-			(xy 66.04 132.08) (xy 76.2 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0354925e-05cd-4662-b066-8347e6d66c42")
 	)
 	(wire
 		(pts
@@ -4333,7 +4327,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 104.14) (xy 76.2 104.14)
+			(xy 66.04 129.54) (xy 76.2 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4450,16 +4444,6 @@
 			(type default)
 		)
 		(uuid "d9d73642-b30e-4efc-ae96-e1743d15f1da")
-	)
-	(wire
-		(pts
-			(xy 66.04 129.54) (xy 76.2 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd019dc6-823f-4aa6-99b4-0946efa92539")
 	)
 	(wire
 		(pts
@@ -4741,17 +4725,6 @@
 		)
 		(uuid "26050c40-9ab1-454a-b979-53aba0b4b3cd")
 	)
-	(label "CAN_RX"
-		(at 66.04 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "270c7ac4-ab78-4e16-9f3e-03bbd30d7219")
-	)
 	(label "TIM4_CH2"
 		(at 236.22 132.08 0)
 		(fields_autoplaced yes)
@@ -4862,19 +4835,8 @@
 		)
 		(uuid "5ae7eb63-5e43-46f6-868d-fff5d037ec7e")
 	)
-	(label "CAN_TX"
+	(label "BOOT0"
 		(at 66.04 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b874212-a3e2-4a2b-adb4-4637a5639a5f")
-	)
-	(label "USER_BTN"
-		(at 66.04 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5049,7 +5011,7 @@
 		)
 		(uuid "f1080bdf-1f6a-4845-a401-403f4cca1702")
 	)
-	(label "USER_BTN"
+	(label "BOOT0"
 		(at 177.8 137.16 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6496,7 +6458,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b465bb9-aa41-4e6f-bc8b-48b2682a470b")
 		(property "Reference" "SW301"
-			(at 212.09 133.35 90)
+			(at 212.09 133.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6504,8 +6466,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "USER"
-			(at 212.09 135.89 90)
+		(property "Value" "BOOT0"
+			(at 212.09 135.8899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7507,7 +7469,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9ea21040-8dee-4573-b6da-da91fcd85780")
 		(property "Reference" "J301"
@@ -8223,9 +8185,9 @@
 		(at 199.39 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ddce32a1-14d3-461c-8f22-1d4b78cfd7dc")
 		(property "Reference" "U302"
